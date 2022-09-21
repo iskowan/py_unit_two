@@ -2,7 +2,7 @@
 
 # be consistant within your programs
 
-baseOfTriangle = 10
+baseOfTriangle =
 heightOfTriangle = 20
 areaOfTriangle = baseOfTriangle * heightOfTriangle / 2
 
