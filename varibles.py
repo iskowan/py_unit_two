@@ -2,8 +2,8 @@
 
 # be consistant within your programs
 
-baseOfTriangle =
-heightOfTriangle = 20
+baseOfTriangle = input("What is the base of the triangle?:")
+heightOfTriangle = input("What is the height of the triangle?:")
 areaOfTriangle = baseOfTriangle * heightOfTriangle / 2
 
 # print(areaOfTriangle)
