@@ -1,3 +1,4 @@
+#asking for amount of money
 userMoney = input("Enter an amount of money in dollars and cents (ex. 162.95):")
 
 # changing user input into numbers the computer can use
@@ -43,13 +44,13 @@ remainderNickle = round(remainderDime%0.05,2)
 pennyCents = int(remainderNickle/0.01)
 
 print(userMoney, "can be made with:",
-      hundredDollars, "Hundred dollar(s)",
-      fiftyDollars, "Fifty dollar(s)",
-      twentyFiveDollars, "Twenty five dollar(s)",
-      tenDollars, "Ten dollar(s)",
-      fiveDollars, "Five dollar(s)",
-      oneDollar, "One dollar(s)",
-      quarterCents, "Quarter(s)",
-      dimeCents, "Dime(s)",
-      nickleCents, "Nickle(s) and ",
+      hundredDollars, "Hundred dollar(s),",
+      fiftyDollars, "Fifty dollar(s),",
+      twentyFiveDollars, "Twenty five dollar(s),",
+      tenDollars, "Ten dollar(s),",
+      fiveDollars, "Five dollar(s),",
+      oneDollar, "One dollar(s),",
+      quarterCents, "Quarter(s),",
+      dimeCents, "Dime(s),",
+      nickleCents, "Nickle(s), and ",
       pennyCents, "Pennies")
