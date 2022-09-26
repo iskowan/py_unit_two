@@ -20,7 +20,7 @@ print("Your favorite number", userNumber, "is 2 times smaller than my favorite n
 
 # ask users dream home
 userHome = input("What's your dream home?:")
-print("I've also been longing for a", userHome, "too.")
+print("I've also been wanting a", userHome, "too.")
 # aking the cost of the users dream home
 userHomeCost = input("How much does your dream home cost?:")
 print("Wow, $", userHomeCost, "That's expensive!")
