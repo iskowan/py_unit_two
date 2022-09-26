@@ -24,8 +24,11 @@ print("I also want a", userHome, ".")
 # asking the cost of the users dream home
 userHomeCost = input("How much does your dream home cost?:")
 print("Wow, $", userHomeCost, "! Is that in your budget?")
+userIntrestRate = input("What is the intrest rate?:")
 
 P = float(userHomeCost)
-n =
-r = intrest rate/100/12 #(12 months)
-monthlyPayments = (r * P)/(1-(1+r)**-n)
+n = 60
+r = float(userIntrestRate)/100/12
+monthlyPayments = round((r * P)/(1-(1+r)**-n),2)
+
+print("Your monthly payemnt will be:", monthlyPayments)
