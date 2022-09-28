@@ -2,32 +2,36 @@
 userName = input("What's your name?:")
 
 # printing and introducing Chatbot
-print("G'day", userName,"! I'm Chatbot")
+print("Hey there,", userName,"! I'm Chatbot")
 
 # asking where user is from
-userLocation = str.lower(input("What country are your from?:"))
+userLocation = str.lower(input("What country are your from? (ex. United States, China, etc.):"))
     #str.lower chnages all the letters in the input to lower case
 
 #depending on the input, the bot will reply
-if ("us") or ("america") in userLocation:
+if ("us" or "united states") in userLocation:
     print("oh... thats unfortunate, anyways...")
 else:
-    print(userLocation, "is on my bucketlist of places I want to go!")
+    print(userLocation.capitalize(), "is on my bucketlist of places I want to go!")
 
 # asking user what their favorite number is
 userNumber = input("What's your favorite number?:")
 
-#defining Chatbot's favorite number
-chatNumber = float(userNumber) * 2
-# relating to the users favorite number
-print("Your favorite number is ", userNumber, "?! My favorite number is two times greater than your favorite number",
+if float(userNumber) > 0:
+    #defining Chatbot's favorite number
+    chatNumber = float(userNumber) * 2
+    # relating to the users favorite number
+    print("Your favorite number is ", userNumber, "?! My favorite number is two times greater than your favorite number",
       chatNumber, "!")
+#if the user's favorite number is zero then you print something diffrent:
+if float(userNumber) == 0:
+    print("Same! Zero's the best")
 
 # ask users dream home
 userHome = str.lower(input("What's your dream house?:"))
 
 if ("mansion" or "modern" or "modern house") in userHome:
-    print("Wow! Can you afford one?")
+    print("Are you sure you can you afford one?")
 else:
     print("Thats fantastic, I'd also love a", userHome, ".")
 
