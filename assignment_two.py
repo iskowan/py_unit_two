@@ -10,7 +10,6 @@ userLocation = str.lower(input("What country are your from?:"))
 
 #depending on the input, the bot will reply
 if ("us") or ("america") in userLocation:
-    # the input's must be in parentisis and must have an or inbetween
     print("oh... thats unfortunate, anyways...")
 else:
     print(userLocation, "is on my bucketlist of places I want to go!")
