@@ -2,13 +2,13 @@
 userName = input("What is your name?:")
 
 # printing and introducing Chatbot
-print("Hi", userName,"! I'm Chatbot")
+print("G'day", userName,"! I'm Chatbot")
 
 # asking where user is from
-userLocation = input("Where are your from?:")
+userLocation = input("Where country are your from?:")
 
 # complementing users location
-print(userLocation, "is actually on my bucketlist of places I want to go!")
+print(userLocation, "is on my bucketlist of places I want to go!")
 
 # asking user what their favorite number is
 userNumber = input("What's your favorite number?:")
@@ -16,14 +16,14 @@ userNumber = input("What's your favorite number?:")
 #defining Chatbot's favorite number
 chatNumber = float(userNumber) * 2
 # relating to the users favorite number
-print("Your favorite numberis ", userNumber, "?! My favorite number is two times your favorite number", chatNumber)
+print("Your favorite number is ", userNumber, "?! My favorite number is two times greater than your favorite number", chatNumber)
 
 # ask users dream home
-userHome = input("What's your dream home?:")
-print("I also want a", userHome, ".")
+userHome = input("What's your dream house?:")
+print("Thats fantastic, I'd also love a(n)", userHome, ".")
 # asking the cost of the users dream home
-userHomeCost = input("How much does your dream home cost?:")
-print("Wow, $", userHomeCost, "! Is that in your budget?")
+userHomeCost = input("How much does your dream house cost?:")
+print("Wow, $", userHomeCost, "! Is that in your budget!?")
 #aking for their intrest rate
 userIntrestRate = input("What is the intrest rate?:")
 
