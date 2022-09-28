@@ -6,13 +6,9 @@ print("Hey there,", userName,"! I'm Chatbot")
 
 # asking where user is from
 userLocation = str.lower(input("What country are your from? (ex. United States, China, etc.):"))
-    #str.lower chnages all the letters in the input to lower case
-
-#depending on the input, the bot will reply
-if ("us" or "united states") in userLocation:
-    print("oh... thats unfortunate, anyways...")
-else:
-    print(userLocation.capitalize(), "is on my bucketlist of places I want to go!")
+'''str.lower chnages all the letters in the input to lower case
+ .capitalize() makes the first letter of userLocation uppercase'''
+print(userLocation.capitalize(), "is on my bucketlist of places I want to go!")
 
 # asking user what their favorite number is
 userNumber = input("What's your favorite number?:")
