@@ -1,15 +1,11 @@
 userName = input("What's your name?:")
-if "" in userName:
-    exit()
-else:
 
-'''
 # asking user their name
 userName = input("What is your name?:")
 
 # printing and introducing Chatbot
 print("G'day", userName,"! I'm Chatbot")
-'''
+
 # asking where user is from
 userLocation = str.lower(input("What country are your from?:"))
     #str.lower chnages all the letters in the input to lower case
