@@ -1,7 +1,5 @@
-userName = input("What's your name?:")
-
 # asking user their name
-userName = input("What is your name?:")
+userName = input("What's your name?:")
 
 # printing and introducing Chatbot
 print("G'day", userName,"! I'm Chatbot")
