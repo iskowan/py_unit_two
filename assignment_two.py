@@ -34,7 +34,7 @@ userHome = str.lower(input("What's your dream house?:"))
 if ("mansion" or "modern" or "modern house") in userHome:
     print("Are you sure you can you afford one?")
 else:
-    print("Thats fantastic, I'd also love a", userHome, ".")
+    print("That's fantastic, I'd also love a", userHome, ".")
 
 # asking the cost of the users dream home
 userHomeCost = input("How much does your dream house cost?:")
@@ -49,4 +49,4 @@ intrestRate = float(userIntrestRate)/100/12
 
 monthlyPayments = round((intrestRate * homeCostNumber)/(1-(1+intrestRate)**-numberOfMonthlyPayments),2)
 
-print("Your monthly payemnt will be:", monthlyPayments)
+print("Your monthly payemnt will be:", monthlyPayments, "hopefully you can afford that...")
