@@ -36,8 +36,6 @@ userHomeCost = input("How much does your dream house cost?:")
 print("Wow, $", userHomeCost, "! I hope you've been saving!")
 #aking for their intrest rate
 userIntrestRate = input("What's the annual intrest rate?:")
-#ask number of monthly payments
-
 
 #defining the equation: mohtlyPayments
 homeCostNumber = float(userHomeCost)
