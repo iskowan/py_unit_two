@@ -37,12 +37,12 @@ print("Wow, $", userHomeCost, "! I hope you've been saving!")
 #aking for their intrest rate
 userIntrestRate = input("What's the annual intrest rate?:")
 
-numberOfMonthlyPayments = 60
-#defining the equation: mohtlyPayments
-P = float(userHomeCost)
-n = numberOfMonthlyPayments
-r = float(userIntrestRate)/100/12
 
-monthlyPayments = round((r * P)/(1-(1+r)**-n),2)
+#defining the equation: mohtlyPayments
+homeCostNumber = float(userHomeCost)
+numberOfMonthlyPayments = 60
+intrestRate = float(userIntrestRate)/100/12
+
+monthlyPayments = round((intrestRate * homeCostNumber)/(1-(1+intrestRate)**-numberOfMonthlyPayments),2)
 
 print("Your monthly payemnt will be:", monthlyPayments)
