@@ -2,7 +2,7 @@
 userName = input("What's your name?:")
 
 # printing and introducing Chatbot
-print("Hey there,", userName,"! I'm Chatbot")
+print("Hey there,", userName.capitalize(),"! I'm Chatbot")
 
 # asking where user is from
 userLocation = str.lower(input("What country are your from? (ex. United States, China, etc.):"))
